@@ -1,0 +1,642 @@
+@font-face {
+    font-family: 'Mulish400';
+    src: url('../fonts/Mulish400.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.item_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish400';
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+
+.item {
+    list-style-type: none;
+    color: gray;
+}
+
+.item:hover {
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+/* main code */
+
+.hero_banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.hero_title {
+    max-width: 427px;
+    font-family: 'Mulish400';
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+}
+
+.hero_text {
+    max-width: 445px;
+    margin-bottom: 20px;
+    font-family: 'Mulish400';
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgb(69, 28, 173);
+}
+
+.hero_btn {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(69, 143, 246, 1);
+    font-family: 'Mulish400';
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: 0em;
+    border-radius: 55px;
+    border: 1px solid transparent;
+    color:blue;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.hero_btn:hover {
+    background-color: transparent;
+    color: rgba(69, 143, 246, 1);
+    border-color: rgba(69, 143, 246, 1);
+    transition: .5s;
+}
+
+.hero_btn:focus {
+    box-shadow: 0px 0px 10px 5px dodgerblue;
+}
+
+.main_images {
+    width: 693px;
+    height: 598px;
+}
+
+/* Services code */
+
+.services {
+    margin-bottom: 100px;
+
+}
+
+.services_top_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.services_title {
+    font-family: 'Mulish400';
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: 0em;
+
+}
+
+.services_top_line {
+    width: 56px;
+    height: 2px;
+    background: rgba(0, 0, 0, 1);
+}
+
+.services_top_text {
+    max-width: 952px;
+    font-family: 'Mulish400';
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(53, 12, 155);
+}
+
+
+.services_card_content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.services_card_group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.services_card {
+    width: 350px;
+    height: 354px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card_images {
+    width: 91px;
+    height: 90px;
+    margin: 30px;
+}
+
+.card_images_2 {
+    width: 61px;
+    height: 85px;
+    margin: 30px;
+}
+
+.card_images_3 {
+    width: 67px;
+    height: 95px;
+    margin: 30px;
+}
+
+.card_images_4 {
+    width: 67px;
+    height: 95px;
+    margin: 30px;
+}
+
+.card_images_5 {
+    width: 80px;
+    height: 71px;
+    margin: 30px;
+}
+
+.card_images_6 {
+    width: 69px;
+    height: 95px;
+    margin: 30px;
+}
+
+.card_title_2 {
+    color: #000;
+    font-family: 'Mulish400';
+    width: 196px;
+    height: 56px;
+    margin-left: 30px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.card_text_2 {
+    color: #7D7987;
+    width: 261px;
+    height: 84px;
+    margin-left: 30px;
+    font-family: 'Mulish400';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.card_title_3 {
+    color: #000;
+    width: 146px;
+    height: 56px;
+    margin-left: 30px;
+    font-family: 'Mulish400';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.card_text_3 {
+    color: #7D7987;
+    width: 261px;
+    height: 84px;
+    margin-left: 30px;
+    font-family: 'Mulish400';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.card_title_4 {
+    color: #000;
+    width: 130px;
+    height: 56px;
+    margin-left: 30px;
+    font-family: 'Mulish400';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.card_text_4 {
+    color: #7D7987;
+    width: 261px;
+    height: 84px;
+    margin-left: 30px;
+    font-family: 'Mulish400';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.card_title_5 {
+    color: #000;
+    width: 182px;
+    height: 56px;
+    margin-left: 30px;
+    font-family: 'Mulish400';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.card_text_5 {
+    color: #7D7987;
+    width: 266px;
+    height: 84px;
+    margin-left: 30px;
+    font-family: 'Mulish400';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.card_title_6 {
+    color: #000;
+    width: 98px;
+    height: 56px;
+    margin-left: 30px;
+    font-family: 'Mulish400';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.card_text_6 {
+    color: #7D7987;
+    width: 261px;
+    height: 56px;
+    margin-left: 30px;
+    font-family: 'Mulish400';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.card_btn {
+    width: 200px;
+    height: 56px;
+    font-family: 'Mulish400';
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    border-radius: 55px;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    cursor: pointer;
+    transition: .5s;
+    margin-left: 500px;
+}
+
+.card_btn:hover {
+    background-color: dodgerblue;
+    color: rgb(0, 5, 93);
+    border-color: dodgerblue;
+    transition: .5s;
+}
+
+.card_btn:focus {
+    box-shadow: 0px 0px 10px 5px dodgerblue;
+}
+
+/* Section code  */
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.section_images {
+    width: 650px;
+    height: 477px;
+}
+
+.section_title {
+    width: 481px;
+    height: 112px;
+    color: #000;
+    font-family: 'Mulish400';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.section_title {
+    max-width: 427px;
+    font-family: 'Mulish400';
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0em;
+    margin-bottom: 50px;
+}
+
+.section_text {
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.section_text_2 {
+    color: #7D7987;
+    font-family: 'Mulish400';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.section_btn {
+    width: 200px;
+    height: 56px;
+    font-family: 'Mulish400';
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    border-radius: 55px;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 50px;
+}
+
+.section_btn:hover {
+    background-color: dodgerblue;
+    color: white;
+    border-color: dodgerblue;
+    transition: .5s;
+}
+
+.section_btn:focus {
+    box-shadow: 0px 0px 10px 5px dodgerblue;
+}
+
+/* section_2 code  */
+
+.section_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.section_2_title {
+    color: #000;
+    width: 254px;
+    height: 96px;
+    font-family: 'Mulish400';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+
+.section_2_text {
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.section_2_text_2 {
+    color: #7D7987;
+    font-family: 'Mulish400';
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+    width: 380px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.section_2_images {
+    width: 25px;
+    height: 15px;
+}
+
+.section_2_images_2 {
+    width: 665px;
+    height: 450px;
+}
+
+.section_2_btn {
+    width: 200px;
+    height: 56px;
+    font-family: 'Mulish400';
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    border-radius: 55px;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 50px;
+}
+
+.section_2_btn:hover {
+    background-color: gray;
+    color: white;
+    border-color: gray;
+    transition: .5s;
+}
+
+.section_2_btn:focus {
+    box-shadow: 0px 0px 10px 5px gray;
+}
+
+/* section_3 code  */
+
+.section_3_images {
+    width: 1219.581px;
+    height: 443px;
+    flex-shrink: 0;
+}
+
+p {
+    color: gray;
+}
+
+a {
+    color: blue;
+}
+
+.box_gr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-group {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.box_group_btn {
+    width: 200px;
+    height: 56px;
+    font-family: 'Mulish400';
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    border-radius: 55px;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 50px;
+}
+
+.box_group_btn:hover {
+    background-color: dodgerblue;
+    color: white;
+    border-color: dodgerblue;
+    transition: .5s;
+}
+
+.box_group_btn:focus {
+    box-shadow: 0px 0px 10px 5px dodgerblue;
+}
+
+.box-group1 {
+    background-color: white;
+    width: 300px;
+    height: 420px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.box-text {
+    padding: 10px;
+}
+
+.text-more {
+    display: flex;
+    gap: 5px;
+}
+
+.text-more1 {
+    width: 20px;
+    height: 20px;
+}
+
+img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+    gap: 400px;
+    padding: 20px;
+}
+
+.box_images {
+    width: 300px;
+    height: 200px;
+}
+
+.box1 {
+    color: white;
+    margin-left: 60px;
+}
+
+.box_group_2 {
+    display: flex;
+    gap: 100px;
+}
+
+.box_group_text {
+    color: white;
+}
+
+.box_text {
+    color: white;
+}
+
+.box_text_2 {
+    color: white;
+}
+
+.boxgr {
+    color: white;
+    margin-top: 55px;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
